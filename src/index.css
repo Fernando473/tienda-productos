@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --main: #d93636;
+  --secondary: #d93663;
+  --clean: #fff;
+  --card-background: #f2f2f0;
+  --text: #403f37;
+  --container: #bfbfbf;
+
+}
+
+body{
+  font-family: 'Montserrat';
+}
+
+.root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

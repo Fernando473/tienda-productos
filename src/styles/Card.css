@@ -1,0 +1,37 @@
+.product{
+    background-color: var(--card-background);
+    width: 220px;
+    padding: 20px 16px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product-img{
+    border-radius: 12px;
+}
+
+.product-name{
+    margin-top: 14px;
+    font-size: 14px;
+    text-align: center;
+    color: var(--text);
+}
+
+.product-details{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text); 
+    gap: 30px;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.new-price{
+    font-weight: bold;
+}
