@@ -30,8 +30,10 @@
 
 .old-price{
     text-decoration: line-through;
+    color: red;
 }
 
 .new-price{
     font-weight: bold;
+    color: green;
 }
