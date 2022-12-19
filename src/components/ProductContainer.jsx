@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/ProductContainer.css"
-import Card from "./Card";
 
 
 const ProductContainer = (props) => {

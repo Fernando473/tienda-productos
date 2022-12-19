@@ -1,6 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .App{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    flex-direction: column;
+    color: var(--text);
+
+}
+
+#search{
+    margin-bottom: 10px;
+}
+legend{
+    padding-top: 10px;
+    padding-bottom: 3px;
 }

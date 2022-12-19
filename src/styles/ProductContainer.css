@@ -26,3 +26,15 @@
     margin-bottom: 14px;
     margin-top: 14px;
 }
+
+
+@media (min-width:760px) {
+    .products-section{
+        width: 740px;
+    } 
+}
+@media (min-width:990px) {
+    .products-section{
+        width: 970px;
+    } 
+}

@@ -8,14 +8,15 @@
   --main: #d93636;
   --secondary: #d93663;
   --clean: #fff;
-  --card-background: #f2f2f0;
-  --text: #403f37;
-  --container: #bfbfbf;
+  --card-background: #ABA361;
+  --text: #EFF7CF;
+  --container: #732C2C;
 
 }
 
 body{
   font-family: 'Montserrat';
+  background-color: #420C14;
 }
 
 .root{

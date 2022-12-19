@@ -1,19 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import datos from "./products.json"
 import './App.css'
+import { useState } from "react"
 import Card from './components/Card'
 import ProductContainer from './components/ProductContainer'
 
-function App() {
-  return (
+
+const App = () => {
+
+  const [ search, setSearch ] = useState("")
+  const searcher = (e) => {
+    setSearch(e.target.value)   
+  }
+  const results = !search ? datos : datos.filter((dato)=> dato.name.toLowerCase().includes(search.toLocaleLowerCase()))
+
+  return(
     <div className="App">
+      <legend>Busca nuestros productos</legend>
+       <input type="text" onChange={searcher} name="search" id="search" />
       <ProductContainer>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        {
+          results.map(product => 
+              <Card 
+                    key={product.id}
+                    name={product.name}
+                    oldPrice={product.price}
+                    newPrice ={product.price - (product.price* product.discount)/100}
+                    image = {product.url}
+              />
+          )
+        }
       </ProductContainer>
     </div>
   )
