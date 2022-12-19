@@ -15,7 +15,7 @@ const App = () => {
 
   return(
     <div className="App">
-      <legend>Busca nuestros productos</legend>
+      <legend>Busca nuestros Productos</legend>
        <input type="text" onChange={searcher} name="search" id="search" />
       <ProductContainer>
         {
