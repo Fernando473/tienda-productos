@@ -27,7 +27,7 @@ const App = () => {
                     newPrice ={product.price - (product.price* product.discount)/100}
                     image = {product.url}
               />
-          )
+          ) 
         }
       </ProductContainer>
     </div>
