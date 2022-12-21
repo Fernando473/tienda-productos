@@ -22,10 +22,12 @@ const App = () => {
           results.map(product => 
               <Card 
                     key={product.id}
+                    discount={product.discount}
                     name={product.name}
                     oldPrice={product.price}
                     newPrice ={product.price - (product.price* product.discount)/100}
                     image = {product.url}
+
               />
           ) 
         }

@@ -1,0 +1,7 @@
+.hearth{
+    color: red;
+}
+
+.con-hearth:hover{
+    cursor: pointer;
+}

@@ -54,5 +54,19 @@
         "price":50,
         "discount":7,
         "url":"https://picsum.photos/200"
+    },
+    {
+        "id":9,
+        "name":"Cargador",
+        "price":100,
+        "discount":20,
+        "url":"https://picsum.photos/200"
+    },
+    {
+        "id":10,
+        "name":"Audifonos",
+        "price":200,
+        "discount":30,
+        "url":"https://picsum.photos/200"
     }
 ]
