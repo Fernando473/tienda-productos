@@ -1,18 +1,26 @@
 {
+  "homepage":"https://fernando473.github.io/tienda-productos/"
   "name": "tienda-productos",
   "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-    "sweetalert": "^2.1.2"
+    "sweetalert": "^2.1.2",
+    "gh-pages": "^4.0.0",
+    "react-scripts": "5.0.1",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",
